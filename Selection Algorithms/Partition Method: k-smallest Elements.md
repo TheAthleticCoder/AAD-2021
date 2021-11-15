@@ -47,5 +47,34 @@ The time complexity is a bit complicated to calculate. But it is:
 **Total Cost:** $klogk+(n-k)logk = nlogk$. That is **$O(nlogk)$**. This is significantly better than the ones above. 
 
 -----
+
+### **Partitioning Technique:**
+The Algorithm: <br>
+1. Choose a pivot from the array.
+2. We Partition the array such that: A[low...pivotpoint-1] $\leq$ pivotpoint $\leq$ A[pivotpoint+1...high].
+3. If $k < pivotpoint$ then it must be on the left side of the pivot. Recursively do the same method on the left.
+4. If $k = pivotpoint$ then it must be the pivot and print all elements from $low$ to $pivotpoint$. 
+5. If $k > pivotpoint$ then it must be on the right side of the pivot. We then do the same recursion process on the right part. 
+
+```cpp
+int Selection(int low, int high, int k){
+    int pivotpoint;
+    if(low==high)
+        return S[low];
+    else{
+        pivotpoint = Partition(low,high);
+        if(k==pivotpoint)
+            return S[pivotpoint];
+        else if(k<pivotpoint)
+            return Selection(low,pivotpoint-1,k);
+        else
+            return Selection(pivotpoint+1,high,k);
+    }
+}
+```
+
+**Time Complexity:** $O(n^{2})$ in worst case which is same as QuickSort. This method performs better than on the average case: $O(nlogk)$. 
+
+-----
 -----
 
