@@ -5,14 +5,14 @@
 **Name:** Harshit Gupta <br>
 **Roll No:** 2020114017
 
-## **$$AIM$$**
+## **$AIM$**
 
 This project aims to serve its purpose of being an effective and easy introduction into the world of Algorithms. <br>
 Very often we observe people getting scared at the sight of long lines of code and less logic or explanation. This repository is exactly the opposite of that. It has lesser lines of code and more emphasis into the different possible approaches to solve particular problems. The problems are relatable in real world scenario to help the beginners get comfortable with them. 
 
 -----
 
-## **$$FEATURES$$**
+## **$FEATURES$**
 Some of the features of this project are-
 1. It covers algorithms with vivid visualizations and explanations where ever possible. 
 2. It has videos which can help in understanding difficult approaches and logic with ease (since some students love audio based learning.)
