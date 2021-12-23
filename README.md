@@ -1,5 +1,11 @@
 # **Algorithm Analysis and Design**
 
+**This course was taken during Monsoon-2021. Contents include the lecture notes(assignments) and the project.**
+
+# Lecture Notes
+The above repository contains notes and extra content regarding the topics discussed during the course. 
+
+
 # Project Report
 
 **Name:** Harshit Gupta <br>
